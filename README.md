@@ -18,7 +18,11 @@ User Secrets (for credentials management - optional)
 --To run a test via command line:
 cd into your project folder and them just run:
 dotnet test (to run all test in your project folder)
+
+
 dotnet test --filter Category=done
+
 dotnet test --filter "Category=us123 & Category=done"
+
 dotnet test --filter "Category=us123 | Category=done"
 (here Category refers to the @mytag from the .feature files where we wrote our scenarios in Gherkin
