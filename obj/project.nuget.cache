@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gd4h/vQp4jfQ4Gy0uWml7KeKywxvDR2sVyT0yGWw7AZO13kV6lY2uR4gvNw06GY5Io7kAjWyyWMpi2Y97DVWvw==",
+  "dgSpecHash": "llSpHOPb9qIfyRvsRUmVk6V+dOoBTHxCVAzeCjomPKyCy7VY9/skruVyCcbPEns//KLBpF841xuUpXmgMRjI9w==",
   "success": true,
-  "projectFilePath": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC 2/ScreenPlayPOC.csproj",
+  "projectFilePath": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC/ScreenPlayPOC.csproj",
   "expectedPackageFiles": [
     "/Users/luca.babasan/.nuget/packages/boa.constrictor/1.2.3/boa.constrictor.1.2.3.nupkg.sha512",
     "/Users/luca.babasan/.nuget/packages/bodi/1.5.0/bodi.1.5.0.nupkg.sha512",
