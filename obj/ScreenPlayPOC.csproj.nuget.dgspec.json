@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC 2/ScreenPlayPOC.csproj": {}
+    "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC/ScreenPlayPOC.csproj": {}
   },
   "projects": {
-    "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC 2/ScreenPlayPOC.csproj": {
+    "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC/ScreenPlayPOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC 2/ScreenPlayPOC.csproj",
+        "projectUniqueName": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC/ScreenPlayPOC.csproj",
         "projectName": "ScreenPlayPOC",
-        "projectPath": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC 2/ScreenPlayPOC.csproj",
+        "projectPath": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC/ScreenPlayPOC.csproj",
         "packagesPath": "/Users/luca.babasan/.nuget/packages/",
-        "outputPath": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC 2/obj/",
+        "outputPath": "/Users/luca.babasan/Desktop/Recources/1Projects/ScreenPlayPOC/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/luca.babasan/.config/NuGet/NuGet.Config"
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
