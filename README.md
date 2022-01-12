@@ -17,8 +17,8 @@ User Secrets (for credentials management - optional)
 
 --To run a test via command line:
 cd into your project folder and them just run:
-dotnet test (to run all test in your project folder)
 
+dotnet test (to run all test in your project folder)
 
 dotnet test --filter Category=done
 
