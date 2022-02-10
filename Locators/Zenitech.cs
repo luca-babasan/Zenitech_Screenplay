@@ -1,10 +1,6 @@
 ﻿using OpenQA.Selenium;
 using Boa.Constrictor.WebDriver;
 using static Boa.Constrictor.WebDriver.WebLocator;
-using OpenQA.Selenium.Support;
-using ImTools;
-using System.Collections.Generic;
-using System;
 
 namespace ScreenPlayPOC.Locators
 {

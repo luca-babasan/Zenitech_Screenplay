@@ -1,5 +1,5 @@
 ﻿Feature: FindAvailableJobs
-	Simple script to visit the available jobs page and list the ones from Cluj-Napoca
+	Simple script to visit the available QA jobs page and list the ones from Cluj-Napoca
 
 @FindAvailableJobs
 Scenario: Find available QA jobs

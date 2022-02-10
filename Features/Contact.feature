@@ -1,5 +1,5 @@
 ﻿Feature: Contact
-	Filling in the fileds of a form 
+	Filling in the fileds of a contact form 
 
 @Contact
 Scenario: Contact

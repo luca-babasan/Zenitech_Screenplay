@@ -1,8 +1,4 @@
-﻿using OpenQA.Selenium;
-using Boa.Constrictor.WebDriver;
-using static Boa.Constrictor.WebDriver.WebLocator;
-
-namespace ScreenPlayPOC.Locators
+﻿namespace ScreenPlayPOC.Locators
 {
     public class ValuesList
     {

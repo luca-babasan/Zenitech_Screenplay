@@ -1,0 +1,40 @@
+2022-02-10 23:53:19Z [INFO] Adding ability for Screenplay actor 'Luca' to browse the Web with OpenQA.Selenium.Chrome.ChromeDriver
+2022-02-10 23:53:19Z [INFO] Screenplay actor 'Luca' attempts to Maximize browser window
+2022-02-10 23:53:19Z [INFO] Screenplay actor 'Luca' successfully did Maximize browser window
+Given I want to find some info about Csaba Suket
+2022-02-10 23:53:19Z [INFO] Screenplay actor 'Luca' attempts to Navigate browser to 'https://zenitech.co.uk/'
+2022-02-10 23:53:21Z [INFO] Screenplay actor 'Luca' successfully did Navigate browser to 'https://zenitech.co.uk/'
+2022-02-10 23:53:21Z [INFO] Screenplay actor 'Luca' attempts to Click on 'About section'
+2022-02-10 23:53:21Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'About section' is equal to 'True'
+2022-02-10 23:53:21Z [INFO] Wait until Appearance of 'About section' is equal to 'True' for up to 30s was True
+2022-02-10 23:53:23Z [INFO] Screenplay actor 'Luca' successfully did Click on 'About section'
+-> done: FindCsabaSteps.Given_I_want_to_find_some_info_about_Csaba_Suket() (3.3s)
+When I browse the our people section of the Zenitech website
+2022-02-10 23:53:23Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'People Tab' is equal to 'True'
+2022-02-10 23:53:23Z [INFO] Wait until Appearance of 'People Tab' is equal to 'True' for up to 30s was True
+2022-02-10 23:53:23Z [INFO] Screenplay actor 'Luca' attempts to JavaScriptClick on 'People Tab'
+2022-02-10 23:53:23Z [INFO] Screenplay actor 'Luca' calls JavaScript in browser
+2022-02-10 23:53:23Z [INFO] Screenplay actor 'Luca' asks for Wait until Existence of 'People Tab' is equal to 'True'
+2022-02-10 23:53:23Z [INFO] Wait until Existence of 'People Tab' is equal to 'True' for up to 30s was True
+2022-02-10 23:53:23Z [INFO] JavaScript code to execute:
+2022-02-10 23:53:23Z [INFO] arguments[0].click();
+2022-02-10 23:53:23Z [INFO] JavaScript code arguments:
+2022-02-10 23:53:23Z [INFO] Element (id = 4130f138-4c92-4fc8-9d58-9e2e4093dcb1)
+2022-02-10 23:53:27Z [INFO] JavaScript in browser return ""
+2022-02-10 23:53:27Z [INFO] Screenplay actor 'Luca' successfully did JavaScriptClick on 'People Tab'
+2022-02-10 23:53:27Z [INFO] Screenplay actor 'Luca' asks for Wait until Current browser URL is equal to 'https://zenitech.co.uk/people/#csaba'
+2022-02-10 23:53:27Z [INFO] Wait until Current browser URL is equal to 'https://zenitech.co.uk/people/#csaba' for up to 30s was https://zenitech.co.uk/people/#csaba
+-> done: FindCsabaSteps.When_I_browse_the_our_people_section_of_the_Zenitech_website() (4.5s)
+Then I should be able to find an article about Csaba
+2022-02-10 23:53:27Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'The short article on Csaba' is equal to 'True'
+2022-02-10 23:53:27Z [INFO] Wait until Appearance of 'The short article on Csaba' is equal to 'True' for up to 30s was True
+2022-02-10 23:53:27Z [INFO] Screenplay actor 'Luca' asks for Text of 'The short article on Csaba'
+2022-02-10 23:53:27Z [INFO] Screenplay actor 'Luca' asks for Wait until Existence of 'The short article on Csaba' is equal to 'True'
+2022-02-10 23:53:27Z [INFO] Wait until Existence of 'The short article on Csaba' is equal to 'True' for up to 30s was True
+2022-02-10 23:53:27Z [INFO] Text of 'The short article on Csaba' was Csaba-Attila Suket
+Founder and Director
+Before founding Zenitech, Csaba was at Betfair, where he was VP and Director of Technology, joining at a time when the company was starting to build its presence in Europe. He was involved in building and running the team in Romania, from scratch to 450 people and running all the platforms for the group. He joined Zenitech as a founder in 2016, launching and growing the company’s offices in Romania, Lithuania and Hungary.
+Csaba was one of the early pioneers of Agile development, and his background is in computer science and development. He is passionate about creating a collaborative and community-based culture at Zenitech. He is based in Cluj, Romania.
+-> done: FindCsabaSteps.Then_I_should_be_able_to_find_an_article_about_Csaba() (0.0s)
+2022-02-10 23:53:27Z [INFO] Screenplay actor 'Luca' attempts to Quit the WebDriver
+2022-02-10 23:53:27Z [INFO] Screenplay actor 'Luca' successfully did Quit the WebDriver

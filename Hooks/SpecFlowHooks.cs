@@ -19,7 +19,8 @@ namespace ScreenPlayPOC.Hooks
         [BeforeScenario(Order = 0)]
         public void InitializeScreenplay()
         {
-            //Here we define an instance of our screenplay actor for each of our scenarios/features. It will start as the actor we define and use tthe "BrowseTheWeb" ability initialises the Selenium Chrome driver.
+            //Here we define an instance of our screenplay actor for each of our scenarios/features. 
+            //It will start as the actor we define and use the "BrowseTheWeb" ability initialises the Selenium Chrome driver.
 
             var actor = new Actor("Luca", new ConsoleLogger());
             actor.Can(BrowseTheWeb.With(new ChromeDriver()));
