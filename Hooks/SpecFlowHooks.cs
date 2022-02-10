@@ -23,7 +23,7 @@ namespace ScreenPlayPOC.Hooks
 
             var actor = new Actor("Luca", new ConsoleLogger());
             actor.Can(BrowseTheWeb.With(new ChromeDriver()));
-
+            actor.AttemptsTo(MaximizeWindow.ForBrowser());
             _scenarioContext.ScenarioContainer.RegisterInstanceAs(actor);
         }
 

@@ -1,0 +1,49 @@
+2022-02-10 23:35:00Z [INFO] Adding ability for Screenplay actor 'Luca' to browse the Web with OpenQA.Selenium.Chrome.ChromeDriver
+2022-02-10 23:35:00Z [INFO] Screenplay actor 'Luca' attempts to Maximize browser window
+2022-02-10 23:35:00Z [INFO] Screenplay actor 'Luca' successfully did Maximize browser window
+Given I am on the Zenitech webiste
+2022-02-10 23:35:00Z [INFO] Screenplay actor 'Luca' attempts to Navigate browser to 'https://zenitech.co.uk/'
+2022-02-10 23:35:03Z [INFO] Screenplay actor 'Luca' successfully did Navigate browser to 'https://zenitech.co.uk/'
+-> done: ContactSteps.Given_I_am_on_the_Zenitech_webiste() (2.3s)
+When I wish to contact the company
+2022-02-10 23:35:03Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Contact Tab' is equal to 'True'
+2022-02-10 23:35:03Z [INFO] Wait until Appearance of 'Contact Tab' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:03Z [INFO] Screenplay actor 'Luca' attempts to Click on 'Contact Tab'
+2022-02-10 23:35:03Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Contact Tab' is equal to 'True'
+2022-02-10 23:35:03Z [INFO] Wait until Appearance of 'Contact Tab' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' successfully did Click on 'Contact Tab'
+-> done: ContactSteps.When_I_Wish_To_Contact_The_Company() (1.2s)
+Then I should be able to fill in a form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Message field of form' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'Message field of form' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' attempts to Clear using backspaces, then send keys 'Romania' to Country filed of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Country filed of form' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'Country filed of form' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' successfully did Clear using backspaces, then send keys 'Romania' to Country filed of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' attempts to Clear using backspaces, then send keys '0748533618' to Phone field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Phone field of form' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'Phone field of form' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' successfully did Clear using backspaces, then send keys '0748533618' to Phone field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' attempts to Clear using backspaces, then send keys 'Luca' to First name field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'First name field of form' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'First name field of form' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' successfully did Clear using backspaces, then send keys 'Luca' to First name field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' attempts to Clear using backspaces, then send keys 'Babasan' to Last name filed of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Last name filed of form' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'Last name filed of form' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' successfully did Clear using backspaces, then send keys 'Babasan' to Last name filed of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' attempts to Clear using backspaces, then send keys 'luca.babasan@zenitech.co.uk' to Email field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Email field of form' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'Email field of form' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' successfully did Clear using backspaces, then send keys 'luca.babasan@zenitech.co.uk' to Email field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' attempts to Clear using backspaces, then send keys 'Selenium is doing it's thing and adding text to this message field' to Message field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Message field of form' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'Message field of form' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' successfully did Clear using backspaces, then send keys 'Selenium is doing it's thing and adding text to this message field' to Message field of form
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' attempts to Click on 'Send form button'
+2022-02-10 23:35:04Z [INFO] Screenplay actor 'Luca' asks for Wait until Appearance of 'Send form button' is equal to 'True'
+2022-02-10 23:35:04Z [INFO] Wait until Appearance of 'Send form button' is equal to 'True' for up to 30s was True
+2022-02-10 23:35:05Z [INFO] Screenplay actor 'Luca' successfully did Click on 'Send form button'
+-> done: ContactSteps.Then_I_Should_Be_Able_To_Fill_In_A_Form() (4.8s)
+2022-02-10 23:35:09Z [INFO] Screenplay actor 'Luca' attempts to Quit the WebDriver
+2022-02-10 23:35:09Z [INFO] Screenplay actor 'Luca' successfully did Quit the WebDriver

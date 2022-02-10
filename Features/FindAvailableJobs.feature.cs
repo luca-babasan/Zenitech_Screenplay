@@ -75,14 +75,14 @@ namespace ScreenPlayPOC.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("Find available jobs")]
+        [NUnit.Framework.DescriptionAttribute("Find available QA jobs")]
         [NUnit.Framework.CategoryAttribute("FindAvailableJobs")]
-        public virtual void FindAvailableJobs()
+        public virtual void FindAvailableQAJobs()
         {
             string[] tagsOfScenario = new string[] {
                     "FindAvailableJobs"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Find available jobs", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Find available QA jobs", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -104,10 +104,10 @@ this.ScenarioInitialize(scenarioInfo);
             {
                 this.ScenarioStart();
 #line 6
- testRunner.Given("I want to see the available jobs on the Zenitech website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+ testRunner.Given("I want to see the available QA jobs on the Zenitech website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 7
- testRunner.When("I visit the Join Us section of the website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I visit the Careers tab of the website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 8
  testRunner.Then("I should be able to see the available jobs from Cluj-Napoca", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
