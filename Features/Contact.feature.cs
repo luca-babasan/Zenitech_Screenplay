@@ -75,11 +75,11 @@ namespace ScreenPlayPOC.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Contact")]
-        [NUnit.Framework.CategoryAttribute("applyForJob")]
+        [NUnit.Framework.CategoryAttribute("Contact")]
         public virtual void Contact()
         {
             string[] tagsOfScenario = new string[] {
-                    "applyForJob"};
+                    "Contact"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Contact", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5

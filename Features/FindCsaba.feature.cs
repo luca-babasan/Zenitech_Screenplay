@@ -75,11 +75,11 @@ namespace ScreenPlayPOC.Features
         
         [NUnit.Framework.TestAttribute()]
         [NUnit.Framework.DescriptionAttribute("Look for Hefe")]
-        [NUnit.Framework.CategoryAttribute("findKinga")]
+        [NUnit.Framework.CategoryAttribute("findCsaba")]
         public virtual void LookForHefe()
         {
             string[] tagsOfScenario = new string[] {
-                    "findKinga"};
+                    "findCsaba"};
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Look for Hefe", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 5

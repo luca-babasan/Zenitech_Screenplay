@@ -33,7 +33,7 @@ namespace ScreenPlayPOC.Steps
         [Then]
         public void Then_I_should_be_able_to_find_an_article_about_Csaba()
         {
-            //look for the news article about Kinga
+            //look for the article about Csaba
             _actor.WaitsUntil(Appearance.Of(ZenitechPage.Csaba_article), IsEqualTo.True());
             _actor.AsksFor(Text.Of(ZenitechPage.Csaba_article));
         }

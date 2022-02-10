@@ -1,7 +1,7 @@
 ﻿Feature: Contact
 	Filling in the fileds of a form 
 
-@applyForJob
+@Contact
 Scenario: Contact
 	Given I am on the Zenitech webiste
 	When I wish to contact the company

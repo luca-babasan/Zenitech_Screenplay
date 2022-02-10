@@ -65,7 +65,7 @@ namespace ScreenPlayPOC.Locators
         public static IWebLocator Csaba_button => L(
             "People Tab",
             By.LinkText("Csaba Suket"));
-        public const string People_section_link = "https://zenitech.co.uk/people";
+        public const string People_section_link = "https://zenitech.co.uk/people/#csaba";
         
         public static IWebLocator Csaba_article => L(
             "The short article on Csaba",

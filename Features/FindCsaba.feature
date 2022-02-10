@@ -1,7 +1,7 @@
 ﻿Feature: FindCsaba
 	Simple feature to find Csaba
 
-@findKinga
+@findCsaba
 Scenario: Look for Hefe
 	Given I want to find some info about Csaba Suket
 	When I browse the our people section of the Zenitech website
