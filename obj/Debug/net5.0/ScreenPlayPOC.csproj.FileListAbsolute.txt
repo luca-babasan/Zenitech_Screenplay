@@ -399,4 +399,3 @@ C:\Users\User\Source\Repos\luca-babasan\Zenitech_Screenplay\obj\Debug\net5.0\Scr
 C:\Users\User\Source\Repos\luca-babasan\Zenitech_Screenplay\obj\Debug\net5.0\ref\ScreenPlayPOC.dll
 C:\Users\User\Source\Repos\luca-babasan\Zenitech_Screenplay\obj\Debug\net5.0\ScreenPlayPOC.pdb
 C:\Users\User\Source\Repos\luca-babasan\Zenitech_Screenplay\obj\Debug\net5.0\ScreenPlayPOC.genruntimeconfig.cache
-C:\Users\User\Source\Repos\luca-babasan\Zenitech_Screenplay\bin\Debug\net5.0\DryIoc.dll

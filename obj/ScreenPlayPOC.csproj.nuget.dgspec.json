@@ -40,13 +40,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "DryIoc.dll": {
-              "target": "Package",
-              "version": "[4.8.6, )"
-            },
             "FluentAssertions": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",

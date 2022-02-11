@@ -35,8 +35,8 @@ namespace ScreenPlayPOC.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "FindAvailableJobs", "\tSimple script to visit the available jobs page and list the ones from Cluj-Napoc" +
-                    "a", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "FindAvailableJobs", "\tSimple script to visit the available QA jobs page and list the ones from Cluj-Na" +
+                    "poca", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
