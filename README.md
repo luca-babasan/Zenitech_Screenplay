@@ -13,8 +13,8 @@ https://github.com/q2ebanking/boa-constrictor
 
 Selenium.WebDriver (and optionally Selenium.Support)
 
-*For macOS you will need the additional pack: Selenium.WebDriver.ChromeDriver
-User Secrets (for credentials management - optional)
+*For macOS you will need the additional pack: --Selenium.WebDriver.ChromeDriver
+--User Secrets (for credentials management - optional)
 
 --To run a test via command line:
 cd into your project folder and them just run:
