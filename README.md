@@ -9,12 +9,17 @@ https://github.com/q2ebanking/boa-constrictor
 
 --Extensions: SpecFlow for Visual Studio 2019 (or latest)
 
---NuGet Packages: SpecFlow.Actions.BoaConstrictor or Boa.Constrictor (Original lib)
+--NuGet Packages(already installed):
 
-Selenium.WebDriver (and optionally Selenium.Support)
+-SpecFlow.Actions.BoaConstrictor or Boa.Constrictor (Original lib)
 
-*For macOS you will need the additional pack: --Selenium.WebDriver.ChromeDriver
---User Secrets (for credentials management - optional)
+-Selenium.WebDriver (and optionally Selenium.Support)
+
+*For macOS you will need the additional pack: 
+
+->Selenium.WebDriver.ChromeDriver
+
+->User Secrets (for credentials management - optional)
 
 --To run a test via command line:
 cd into your project folder and them just run:
