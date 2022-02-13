@@ -12,12 +12,12 @@ namespace ScreenPlayPOC.Steps
         //initialize the screenplay actor// we will need this in every step definition, to be able to call the actor+abilities
         private IActor _actor;
 
-        //This "ApplyForJobSteps" name needs to be identical to the public class name it's part of, in this case "public class ApplyForJobSteps"
+        //This "ContactSteps" name needs to be identical to the public class name it's part of, in this case "public class ContactSteps"
         public ContactSteps(IActor actor)
         {
             _actor = actor;
         }
-        //end of initialisation, just copy lines 13 and 16-19 to a new step definition and replace "ApplyForJobSteps"
+        //end of initialisation, just copy lines 13 and 16-19 to a new step definition and replace "ContactSteps" with the new scenario step name
 
         [Given]
         public void Given_I_am_on_the_Zenitech_webiste()
@@ -44,7 +44,7 @@ namespace ScreenPlayPOC.Steps
             _actor.AttemptsTo(SendKeys.To(ZenitechPage.Message_field, ValuesList.Message));
             _actor.AttemptsTo(Click.On(ZenitechPage.Send_button));
 
-            //for the demo we'll set a 4 seconds timeout so we can see what the script did
+            //for the demo we'll set a 4 seconds timeout so we can see what the script did (really bad practice, never use Thread.Sleep, ewww)
             Thread.Sleep(4000);
         }
     }
