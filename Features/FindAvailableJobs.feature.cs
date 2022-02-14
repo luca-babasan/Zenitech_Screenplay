@@ -110,7 +110,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("I visit the Careers tab of the website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 8
- testRunner.Then("I should be able to see the available jobs from Cluj-Napoca", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("I should be able to see the available jobs for QA Engineers", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             }
             this.ScenarioCleanup();

@@ -29,15 +29,15 @@ namespace ScreenPlayPOC.Steps
         {
             _actor.WaitsUntil(Appearance.Of(ZenitechPage.CareersTab), IsEqualTo.True());
             _actor.AttemptsTo(Click.On(ZenitechPage.CareersTab));
-            _actor.AttemptsTo(Click.On(ZenitechPage.SearchJobs));
-            
         }
 
         [Then]
-        public void Then_I_should_be_able_to_see_the_available_jobs_from_Cluj_Napoca()
+        public void Then_I_should_be_able_to_see_the_available_jobs_for_QA_Engineers()
         {
             //_actor.WaitsUntil(Appearance.Of(ZenitechPage.SearchLocations), IsEqualTo.True());
-            _actor.AttemptsTo(SendKeys.To(ZenitechPage.SearchLocations, "QA"));
+            _actor.AttemptsTo(SendKeys.To(ZenitechPage.SearchField, "QA"));
+            _actor.AttemptsTo(Click.On(ZenitechPage.SearchButton));
+            _actor.WaitsUntil(Appearance.Of(ZenitechPage.QAJobs), IsEqualTo.True());
             _actor.AsksFor(Text.Of(ZenitechPage.FirstJob));
             _actor.AsksFor(Text.Of(ZenitechPage.SecondJob));
         }    

@@ -7,7 +7,7 @@ using global::NUnit.Framework;
 using global::TechTalk.SpecFlow;
 using global::System.Runtime.CompilerServices;
 
-[GeneratedCode("SpecFlow", "3.9.50")]
+[GeneratedCode("SpecFlow", "3.9.52")]
 [SetUpFixture]
 public class ScreenPlayPOC_NUnitAssemblyHooks
 {

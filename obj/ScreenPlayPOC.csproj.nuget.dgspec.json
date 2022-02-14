@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\ScreenPlayPOC.csproj": {}
+    "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/ScreenPlayPOC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\ScreenPlayPOC.csproj": {
+    "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/ScreenPlayPOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\ScreenPlayPOC.csproj",
+        "projectUniqueName": "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/ScreenPlayPOC.csproj",
         "projectName": "ScreenPlayPOC",
-        "projectPath": "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\ScreenPlayPOC.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\obj\\",
+        "projectPath": "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/ScreenPlayPOC.csproj",
+        "packagesPath": "/Users/luca.babasan/.nuget/packages/",
+        "outputPath": "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/luca.babasan/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,7 +40,7 @@
           "dependencies": {
             "FluentAssertions": {
               "target": "Package",
-              "version": "[6.5.0, )"
+              "version": "[6.5.1, )"
             },
             "Microsoft.AspNetCore.Http.Abstractions": {
               "target": "Package",
@@ -66,11 +64,11 @@
             },
             "SpecFlow.Actions.BoaConstrictor": {
               "target": "Package",
-              "version": "[0.1.177, )"
+              "version": "[0.1.266, )"
             },
             "SpecFlow.NUnit": {
               "target": "Package",
-              "version": "[3.9.50, )"
+              "version": "[3.9.52, )"
             },
             "SpecFlow.Plus.LivingDocPlugin": {
               "target": "Package",
@@ -96,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

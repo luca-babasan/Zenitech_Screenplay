@@ -14,20 +14,20 @@ namespace ScreenPlayPOC.Locators
         public static IWebLocator CareersTab => L(
             "Join Us Tab of the website", //this is the description for the element
             By.LinkText("Careers")); //this is the driver.FindElement.By.Xpath() part.
-        public static IWebLocator SearchJobs => L(
-            "Search Jobs Tab of the website",
-            By.LinkText("Search jobs"));
-        public static IWebLocator SearchLocations => L(
+        public static IWebLocator SearchField => L(
             "Select job location",
-            By.Id("search-box"));
+            By.Id("search-input"));
+        public static IWebLocator SearchButton => L(
+            "Search Jobs Tab of the website",
+            By.Id("search-button"));
         public static IWebLocator QAJobs => L(
             "Available QA Jobs",
             By.Id("results"));
         public static IWebLocator FirstJob => L(
-            "Available jobs in Cluj Napoca",
+            "First available QA job",
             By.CssSelector("#results > div:nth-child(1)"));
         public static IWebLocator SecondJob => L(
-            "Available jobs in Cluj Napoca",
+            "Second available QA jobs",
             By.CssSelector("#results > div:nth-child(2)"));
         /*
         public List<string> GetQAjobs()

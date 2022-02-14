@@ -8,14 +8,14 @@
     ".NETCoreApp,Version=v5.0": {
       "ScreenPlayPOC/1.0.0": {
         "dependencies": {
-          "FluentAssertions": "6.5.0",
+          "FluentAssertions": "6.5.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.NET.Test.Sdk": "17.0.0",
           "NUnit3TestAdapter": "4.2.1",
           "Selenium.WebDriver": "4.1.0",
           "Selenium.WebDriver.ChromeDriver": "98.0.4758.8000",
-          "SpecFlow.Actions.BoaConstrictor": "0.1.177",
-          "SpecFlow.NUnit": "3.9.50",
+          "SpecFlow.Actions.BoaConstrictor": "0.1.266",
+          "SpecFlow.NUnit": "3.9.52",
           "SpecFlow.Plus.LivingDocPlugin": "3.9.57",
           "NUnit": "3.13.2"
         },
@@ -46,14 +46,14 @@
           }
         }
       },
-      "FluentAssertions/6.5.0": {
+      "FluentAssertions/6.5.1": {
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.5.0"
         },
         "runtime": {
           "lib/netcoreapp3.0/FluentAssertions.dll": {
-            "assemblyVersion": "6.5.0.0",
-            "fileVersion": "6.5.0.0"
+            "assemblyVersion": "6.5.1.0",
+            "fileVersion": "6.5.1.0"
           }
         }
       },
@@ -601,7 +601,7 @@
         }
       },
       "Selenium.WebDriver.ChromeDriver/98.0.4758.8000": {},
-      "SpecFlow/3.9.50": {
+      "SpecFlow/3.9.52": {
         "dependencies": {
           "BoDi": "1.5.0",
           "Gherkin": "19.0.3",
@@ -614,48 +614,47 @@
         "runtime": {
           "lib/netstandard2.0/TechTalk.SpecFlow.dll": {
             "assemblyVersion": "3.9.0.0",
-            "fileVersion": "3.9.50.34647"
+            "fileVersion": "3.9.52.875"
           }
         }
       },
-      "SpecFlow.Actions.BoaConstrictor/0.1.177": {
+      "SpecFlow.Actions.BoaConstrictor/0.1.266": {
         "dependencies": {
           "Boa.Constrictor": "1.2.3",
-          "SpecFlow": "3.9.50",
-          "SpecFlow.Actions.Selenium": "0.1.177"
+          "SpecFlow": "3.9.52",
+          "SpecFlow.Actions.Selenium": "0.1.266"
         },
         "runtime": {
-          "lib/net5.0/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll": {
+          "lib/netcoreapp2.1/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll": {
             "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.177.27004"
+            "fileVersion": "0.1.266.10041"
           }
         }
       },
-      "SpecFlow.Actions.Configuration/0.1.177": {
+      "SpecFlow.Actions.Configuration/0.1.266": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
-          "SpecFlow": "3.9.50",
-          "System.Text.Json": "5.0.2"
+          "SpecFlow": "3.9.52"
         },
         "runtime": {
-          "lib/netstandard2.0/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll": {
+          "lib/netcoreapp2.1/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll": {
             "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.177.27004"
+            "fileVersion": "0.1.266.10041"
           }
         }
       },
-      "SpecFlow.Actions.Selenium/0.1.177": {
+      "SpecFlow.Actions.Selenium/0.1.266": {
         "dependencies": {
           "Selenium.Support": "3.141.0",
-          "SpecFlow": "3.9.50",
-          "SpecFlow.Actions.Configuration": "0.1.177",
+          "SpecFlow": "3.9.52",
+          "SpecFlow.Actions.Configuration": "0.1.266",
           "System.Text.Json": "5.0.2"
         },
         "runtime": {
-          "lib/netstandard2.0/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll": {
+          "lib/netcoreapp2.1/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll": {
             "assemblyVersion": "0.1.0.0",
-            "fileVersion": "0.1.177.27004"
+            "fileVersion": "0.1.266.10041"
           }
         }
       },
@@ -667,24 +666,24 @@
           }
         }
       },
-      "SpecFlow.NUnit/3.9.50": {
+      "SpecFlow.NUnit/3.9.52": {
         "dependencies": {
           "NUnit": "3.13.2",
-          "SpecFlow": "3.9.50",
-          "SpecFlow.Tools.MsBuild.Generation": "3.9.50"
+          "SpecFlow": "3.9.52",
+          "SpecFlow.Tools.MsBuild.Generation": "3.9.52"
         },
         "runtime": {
           "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {
             "assemblyVersion": "3.9.0.0",
-            "fileVersion": "3.9.50.34647"
+            "fileVersion": "3.9.52.875"
           }
         }
       },
       "SpecFlow.Plus.LivingDocPlugin/3.9.57": {
         "dependencies": {
-          "SpecFlow": "3.9.50",
+          "SpecFlow": "3.9.52",
           "SpecFlow.Internal.Json": "1.0.8",
-          "SpecFlow.Tools.MsBuild.Generation": "3.9.50"
+          "SpecFlow.Tools.MsBuild.Generation": "3.9.52"
         },
         "runtime": {
           "lib/netstandard2.0/LivingDoc.Dtos.dll": {
@@ -697,9 +696,9 @@
           }
         }
       },
-      "SpecFlow.Tools.MsBuild.Generation/3.9.50": {
+      "SpecFlow.Tools.MsBuild.Generation/3.9.52": {
         "dependencies": {
-          "SpecFlow": "3.9.50"
+          "SpecFlow": "3.9.52"
         }
       },
       "System.AppContext/4.1.0": {
@@ -1242,12 +1241,12 @@
       "path": "bodi/1.5.0",
       "hashPath": "bodi.1.5.0.nupkg.sha512"
     },
-    "FluentAssertions/6.5.0": {
+    "FluentAssertions/6.5.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-V8q91VsgmDeIRFFx13IPdsE9/TluBnkZOW3tZyctBF7/RppCnKQ6zfzQAJthj2K30XQZ3cqQqvh+UtuF4wDoCg==",
-      "path": "fluentassertions/6.5.0",
-      "hashPath": "fluentassertions.6.5.0.nupkg.sha512"
+      "sha512": "sha512-hdY/upTFYEc7SFJQ+pKsMZP1J5bELh9feB8kXzk6FKAGE/tvAPDzHd76Z+nIYdgnqkocthaDUq+tKPsGD0um2A==",
+      "path": "fluentassertions/6.5.1",
+      "hashPath": "fluentassertions.6.5.1.nupkg.sha512"
     },
     "Gherkin/19.0.3": {
       "type": "package",
@@ -1564,33 +1563,33 @@
       "path": "selenium.webdriver.chromedriver/98.0.4758.8000",
       "hashPath": "selenium.webdriver.chromedriver.98.0.4758.8000.nupkg.sha512"
     },
-    "SpecFlow/3.9.50": {
+    "SpecFlow/3.9.52": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8iBOWWyLj5R0tEhbBLeg1VTCtuDrfvkqYBYn6RRsL+D0FGdtXvyimeW2IHZunKrCiCdPF1f31ZFRwsMoHSFt2Q==",
-      "path": "specflow/3.9.50",
-      "hashPath": "specflow.3.9.50.nupkg.sha512"
+      "sha512": "sha512-m/CtKdN+xRSfdGtWRsvNPoz5nhVEp0yqwVjILBvUf1kLAvZo/j2wxnHbVL5g3XzhOaNFdTx1jtk+WtfJJfbS4g==",
+      "path": "specflow/3.9.52",
+      "hashPath": "specflow.3.9.52.nupkg.sha512"
     },
-    "SpecFlow.Actions.BoaConstrictor/0.1.177": {
+    "SpecFlow.Actions.BoaConstrictor/0.1.266": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vxyzA/mKs9p5osOr3+4j7z3c6DeX/cbwiJCjmp/sQ1fCWV3asLrShfsJNqasPByjYBRhS9bKuAYsv/M/SyQFzA==",
-      "path": "specflow.actions.boaconstrictor/0.1.177",
-      "hashPath": "specflow.actions.boaconstrictor.0.1.177.nupkg.sha512"
+      "sha512": "sha512-ioky7aPGXyrLeaAp7ihtAd+XiFtCd8hfTj/022iXI06cpFbC9msEfCHu6iVLs38fZXBx8+pvk2WEKMUoUqsayA==",
+      "path": "specflow.actions.boaconstrictor/0.1.266",
+      "hashPath": "specflow.actions.boaconstrictor.0.1.266.nupkg.sha512"
     },
-    "SpecFlow.Actions.Configuration/0.1.177": {
+    "SpecFlow.Actions.Configuration/0.1.266": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iSAPI3+QABNvTJeilIS5ZO3uUT+CjibhEoIomrMjGd0zFiEx7mfvZv+nyyLOZIru7wKadQEXZAAo6gd6+2LycQ==",
-      "path": "specflow.actions.configuration/0.1.177",
-      "hashPath": "specflow.actions.configuration.0.1.177.nupkg.sha512"
+      "sha512": "sha512-+Dv1vAgxrSg3e8SO+6t++lsZuIH9VNvEUjFjdNr3/U0D6UPGhxN7+OXWky/cB0aR/Iv1V4dvKCN8x9tYVYvzrQ==",
+      "path": "specflow.actions.configuration/0.1.266",
+      "hashPath": "specflow.actions.configuration.0.1.266.nupkg.sha512"
     },
-    "SpecFlow.Actions.Selenium/0.1.177": {
+    "SpecFlow.Actions.Selenium/0.1.266": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-eT3kRLY65EI1A7cMZahUvK//zcR/a7XV3aA9d5kL8jcK/YMEEBJ2VcvT+tIrnPzGjQutDgfg3917ev0+OW/hjg==",
-      "path": "specflow.actions.selenium/0.1.177",
-      "hashPath": "specflow.actions.selenium.0.1.177.nupkg.sha512"
+      "sha512": "sha512-9lUCzFAoCJ1YcAo8BBcoD9uPApZIFjnISfhU8MqmH4aA1rC/Py7EZO/L4imaaINDQ9gNtZE0v5FjOGLu52s5jg==",
+      "path": "specflow.actions.selenium/0.1.266",
+      "hashPath": "specflow.actions.selenium.0.1.266.nupkg.sha512"
     },
     "SpecFlow.Internal.Json/1.0.8": {
       "type": "package",
@@ -1599,12 +1598,12 @@
       "path": "specflow.internal.json/1.0.8",
       "hashPath": "specflow.internal.json.1.0.8.nupkg.sha512"
     },
-    "SpecFlow.NUnit/3.9.50": {
+    "SpecFlow.NUnit/3.9.52": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-D0dBAhECMbj5KtAYPpNW/jhOeOs98cZpAYDBg81N82NUoEfpXhhfSyXxpql53VII6QDtPzrRnczM9EJASfTv1w==",
-      "path": "specflow.nunit/3.9.50",
-      "hashPath": "specflow.nunit.3.9.50.nupkg.sha512"
+      "sha512": "sha512-ba7ohjFwtywuUsk9eGcMouLUfAkq6UdT6Nd1kAsTDeiEx26KV2NFVmwgUqJ4tvPk842Fwg/5BkDJYX6FldRCmA==",
+      "path": "specflow.nunit/3.9.52",
+      "hashPath": "specflow.nunit.3.9.52.nupkg.sha512"
     },
     "SpecFlow.Plus.LivingDocPlugin/3.9.57": {
       "type": "package",
@@ -1613,12 +1612,12 @@
       "path": "specflow.plus.livingdocplugin/3.9.57",
       "hashPath": "specflow.plus.livingdocplugin.3.9.57.nupkg.sha512"
     },
-    "SpecFlow.Tools.MsBuild.Generation/3.9.50": {
+    "SpecFlow.Tools.MsBuild.Generation/3.9.52": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-oJ5LXdKBnx2faO3I3hNVt+Pyeb6pE9mYxPFCvNXydQ2je3C1O8rDznK9Cxh3Tn8ixpx4LWCYuch9VSL9jZjfXQ==",
-      "path": "specflow.tools.msbuild.generation/3.9.50",
-      "hashPath": "specflow.tools.msbuild.generation.3.9.50.nupkg.sha512"
+      "sha512": "sha512-GD345e/lNdxZ3xt84NoR/GJKqpMMbQapTog0+mZyHGJUvFgt8lFlAgFsVI58Ge1jXLDqF5c9W7eRpk0ovCGMag==",
+      "path": "specflow.tools.msbuild.generation/3.9.52",
+      "hashPath": "specflow.tools.msbuild.generation.3.9.52.nupkg.sha512"
     },
     "System.AppContext/4.1.0": {
       "type": "package",

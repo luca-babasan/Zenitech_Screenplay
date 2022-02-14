@@ -30,7 +30,7 @@
           "build/_._": {}
         }
       },
-      "FluentAssertions/6.5.0": {
+      "FluentAssertions/6.5.1": {
         "type": "package",
         "dependencies": {
           "System.Configuration.ConfigurationManager": "4.4.0"
@@ -780,7 +780,7 @@
           "build/Selenium.WebDriver.ChromeDriver.targets": {}
         }
       },
-      "SpecFlow/3.9.50": {
+      "SpecFlow/3.9.52": {
         "type": "package",
         "dependencies": {
           "BoDi": "1.5.0",
@@ -801,48 +801,50 @@
           "build/SpecFlow.targets": {}
         }
       },
-      "SpecFlow.Actions.BoaConstrictor/0.1.177": {
+      "SpecFlow.Actions.BoaConstrictor/0.1.266": {
         "type": "package",
         "dependencies": {
           "Boa.Constrictor": "1.2.3",
-          "SpecFlow": "3.9.8",
-          "SpecFlow.Actions.Selenium": "0.1.177"
+          "SpecFlow": "3.9.40",
+          "SpecFlow.Actions.Selenium": "0.1.266"
         },
         "compile": {
-          "lib/net5.0/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll": {}
+          "lib/netcoreapp2.1/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll": {}
         },
         "runtime": {
-          "lib/net5.0/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll": {}
+          "lib/netcoreapp2.1/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll": {}
         }
       },
-      "SpecFlow.Actions.Configuration/0.1.177": {
+      "SpecFlow.Actions.Configuration/0.1.266": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Configuration.Binder": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
-          "SpecFlow": "3.9.22",
-          "System.Text.Json": "5.0.2"
+          "SpecFlow": "3.9.40"
         },
         "compile": {
-          "lib/netstandard2.0/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll": {}
+          "lib/netcoreapp2.1/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll": {}
+          "lib/netcoreapp2.1/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll": {}
+        },
+        "build": {
+          "build/_._": {}
         }
       },
-      "SpecFlow.Actions.Selenium/0.1.177": {
+      "SpecFlow.Actions.Selenium/0.1.266": {
         "type": "package",
         "dependencies": {
           "Selenium.Support": "3.141.0",
-          "SpecFlow": "3.9.22",
-          "SpecFlow.Actions.Configuration": "0.1.177",
+          "SpecFlow": "3.9.40",
+          "SpecFlow.Actions.Configuration": "0.1.266",
           "System.Text.Json": "5.0.2"
         },
         "compile": {
-          "lib/netstandard2.0/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll": {}
+          "lib/netcoreapp2.1/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll": {}
+          "lib/netcoreapp2.1/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll": {}
         }
       },
       "SpecFlow.Internal.Json/1.0.8": {
@@ -854,12 +856,12 @@
           "lib/netstandard2.0/SpecFlow.Internal.Json.dll": {}
         }
       },
-      "SpecFlow.NUnit/3.9.50": {
+      "SpecFlow.NUnit/3.9.52": {
         "type": "package",
         "dependencies": {
           "NUnit": "3.13.1",
-          "SpecFlow": "[3.9.50]",
-          "SpecFlow.Tools.MsBuild.Generation": "[3.9.50]"
+          "SpecFlow": "[3.9.52]",
+          "SpecFlow.Tools.MsBuild.Generation": "[3.9.52]"
         },
         "compile": {
           "lib/net5.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll": {}
@@ -892,10 +894,10 @@
           "build/SpecFlow.Plus.LivingDocPlugin.targets": {}
         }
       },
-      "SpecFlow.Tools.MsBuild.Generation/3.9.50": {
+      "SpecFlow.Tools.MsBuild.Generation/3.9.52": {
         "type": "package",
         "dependencies": {
-          "SpecFlow": "[3.9.50]"
+          "SpecFlow": "[3.9.52]"
         },
         "build": {
           "build/SpecFlow.Tools.MsBuild.Generation.props": {},
@@ -1823,15 +1825,15 @@
         "tools/_._"
       ]
     },
-    "FluentAssertions/6.5.0": {
-      "sha512": "V8q91VsgmDeIRFFx13IPdsE9/TluBnkZOW3tZyctBF7/RppCnKQ6zfzQAJthj2K30XQZ3cqQqvh+UtuF4wDoCg==",
+    "FluentAssertions/6.5.1": {
+      "sha512": "hdY/upTFYEc7SFJQ+pKsMZP1J5bELh9feB8kXzk6FKAGE/tvAPDzHd76Z+nIYdgnqkocthaDUq+tKPsGD0um2A==",
       "type": "package",
-      "path": "fluentassertions/6.5.0",
+      "path": "fluentassertions/6.5.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "FluentAssertions.png",
-        "fluentassertions.6.5.0.nupkg.sha512",
+        "fluentassertions.6.5.1.nupkg.sha512",
         "fluentassertions.nuspec",
         "lib/net47/FluentAssertions.dll",
         "lib/net47/FluentAssertions.pdb",
@@ -3236,10 +3238,10 @@
         "selenium.webdriver.chromedriver.nuspec"
       ]
     },
-    "SpecFlow/3.9.50": {
-      "sha512": "8iBOWWyLj5R0tEhbBLeg1VTCtuDrfvkqYBYn6RRsL+D0FGdtXvyimeW2IHZunKrCiCdPF1f31ZFRwsMoHSFt2Q==",
+    "SpecFlow/3.9.52": {
+      "sha512": "m/CtKdN+xRSfdGtWRsvNPoz5nhVEp0yqwVjILBvUf1kLAvZo/j2wxnHbVL5g3XzhOaNFdTx1jtk+WtfJJfbS4g==",
       "type": "package",
-      "path": "specflow/3.9.50",
+      "path": "specflow/3.9.52",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3258,52 +3260,64 @@
         "lib/netstandard2.0/TechTalk.SpecFlow.dll",
         "lib/netstandard2.0/TechTalk.SpecFlow.pdb",
         "lib/netstandard2.0/TechTalk.SpecFlow.xml",
-        "specflow.3.9.50.nupkg.sha512",
+        "specflow.3.9.52.nupkg.sha512",
         "specflow.nuspec"
       ]
     },
-    "SpecFlow.Actions.BoaConstrictor/0.1.177": {
-      "sha512": "vxyzA/mKs9p5osOr3+4j7z3c6DeX/cbwiJCjmp/sQ1fCWV3asLrShfsJNqasPByjYBRhS9bKuAYsv/M/SyQFzA==",
+    "SpecFlow.Actions.BoaConstrictor/0.1.266": {
+      "sha512": "ioky7aPGXyrLeaAp7ihtAd+XiFtCd8hfTj/022iXI06cpFbC9msEfCHu6iVLs38fZXBx8+pvk2WEKMUoUqsayA==",
       "type": "package",
-      "path": "specflow.actions.boaconstrictor/0.1.177",
+      "path": "specflow.actions.boaconstrictor/0.1.266",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "images/specflow-icon.png",
-        "lib/net461/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll",
-        "lib/net5.0/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll",
-        "specflow.actions.boaconstrictor.0.1.177.nupkg.sha512",
+        "lib/net471/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll",
+        "lib/netcoreapp2.1/SpecFlow.Actions.BoaConstrictor.SpecFlowPlugin.dll",
+        "specflow.actions.boaconstrictor.0.1.266.nupkg.sha512",
         "specflow.actions.boaconstrictor.nuspec"
       ]
     },
-    "SpecFlow.Actions.Configuration/0.1.177": {
-      "sha512": "iSAPI3+QABNvTJeilIS5ZO3uUT+CjibhEoIomrMjGd0zFiEx7mfvZv+nyyLOZIru7wKadQEXZAAo6gd6+2LycQ==",
+    "SpecFlow.Actions.Configuration/0.1.266": {
+      "sha512": "+Dv1vAgxrSg3e8SO+6t++lsZuIH9VNvEUjFjdNr3/U0D6UPGhxN7+OXWky/cB0aR/Iv1V4dvKCN8x9tYVYvzrQ==",
       "type": "package",
-      "path": "specflow.actions.configuration/0.1.177",
+      "path": "specflow.actions.configuration/0.1.266",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "LICENSE",
-        "images/specflow-icon.png",
-        "lib/net461/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll",
-        "lib/netstandard2.0/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll",
-        "specflow.actions.configuration.0.1.177.nupkg.sha512",
+        "build/SpecFlow.Actions.Configuration.props",
+        "build/SpecFlow.Actions.Configuration.targets",
+        "build/net471/SpecFlow.Actions.Configuration.Generation.SpecFlowPlugin.dll",
+        "build/net471/SpecFlow.Actions.Configuration.Generation.SpecFlowPlugin.pdb",
+        "build/net471/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll",
+        "build/net471/SpecFlow.Actions.Configuration.SpecFlowPlugin.pdb",
+        "build/netcoreapp2.1/SpecFlow.Actions.Configuration.Generation.SpecFlowPlugin.dll",
+        "build/netcoreapp2.1/SpecFlow.Actions.Configuration.Generation.SpecFlowPlugin.pdb",
+        "build/netcoreapp2.1/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll",
+        "build/netcoreapp2.1/SpecFlow.Actions.Configuration.SpecFlowPlugin.pdb",
+        "lib/net471/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll",
+        "lib/net471/SpecFlow.Actions.Configuration.SpecFlowPlugin.pdb",
+        "lib/netcoreapp2.1/SpecFlow.Actions.Configuration.SpecFlowPlugin.dll",
+        "lib/netcoreapp2.1/SpecFlow.Actions.Configuration.SpecFlowPlugin.pdb",
+        "specflow.actions.configuration.0.1.266.nupkg.sha512",
         "specflow.actions.configuration.nuspec"
       ]
     },
-    "SpecFlow.Actions.Selenium/0.1.177": {
-      "sha512": "eT3kRLY65EI1A7cMZahUvK//zcR/a7XV3aA9d5kL8jcK/YMEEBJ2VcvT+tIrnPzGjQutDgfg3917ev0+OW/hjg==",
+    "SpecFlow.Actions.Selenium/0.1.266": {
+      "sha512": "9lUCzFAoCJ1YcAo8BBcoD9uPApZIFjnISfhU8MqmH4aA1rC/Py7EZO/L4imaaINDQ9gNtZE0v5FjOGLu52s5jg==",
       "type": "package",
-      "path": "specflow.actions.selenium/0.1.177",
+      "path": "specflow.actions.selenium/0.1.266",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
         "images/specflow-icon.png",
-        "lib/net461/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll",
-        "lib/netstandard2.0/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll",
-        "specflow.actions.selenium.0.1.177.nupkg.sha512",
+        "lib/net471/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll",
+        "lib/net471/SpecFlow.Actions.Selenium.SpecFlowPlugin.pdb",
+        "lib/netcoreapp2.1/SpecFlow.Actions.Selenium.SpecFlowPlugin.dll",
+        "lib/netcoreapp2.1/SpecFlow.Actions.Selenium.SpecFlowPlugin.pdb",
+        "specflow.actions.selenium.0.1.266.nupkg.sha512",
         "specflow.actions.selenium.nuspec"
       ]
     },
@@ -3321,10 +3335,10 @@
         "specflow.internal.json.nuspec"
       ]
     },
-    "SpecFlow.NUnit/3.9.50": {
-      "sha512": "D0dBAhECMbj5KtAYPpNW/jhOeOs98cZpAYDBg81N82NUoEfpXhhfSyXxpql53VII6QDtPzrRnczM9EJASfTv1w==",
+    "SpecFlow.NUnit/3.9.52": {
+      "sha512": "ba7ohjFwtywuUsk9eGcMouLUfAkq6UdT6Nd1kAsTDeiEx26KV2NFVmwgUqJ4tvPk842Fwg/5BkDJYX6FldRCmA==",
       "type": "package",
-      "path": "specflow.nunit/3.9.50",
+      "path": "specflow.nunit/3.9.52",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3352,7 +3366,7 @@
         "lib/net6.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb",
         "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll",
         "lib/netstandard2.0/TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb",
-        "specflow.nunit.3.9.50.nupkg.sha512",
+        "specflow.nunit.3.9.52.nupkg.sha512",
         "specflow.nunit.nuspec"
       ]
     },
@@ -3374,10 +3388,10 @@
         "specflow.plus.livingdocplugin.nuspec"
       ]
     },
-    "SpecFlow.Tools.MsBuild.Generation/3.9.50": {
-      "sha512": "oJ5LXdKBnx2faO3I3hNVt+Pyeb6pE9mYxPFCvNXydQ2je3C1O8rDznK9Cxh3Tn8ixpx4LWCYuch9VSL9jZjfXQ==",
+    "SpecFlow.Tools.MsBuild.Generation/3.9.52": {
+      "sha512": "GD345e/lNdxZ3xt84NoR/GJKqpMMbQapTog0+mZyHGJUvFgt8lFlAgFsVI58Ge1jXLDqF5c9W7eRpk0ovCGMag==",
       "type": "package",
-      "path": "specflow.tools.msbuild.generation/3.9.50",
+      "path": "specflow.tools.msbuild.generation/3.9.52",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3394,7 +3408,7 @@
         "licenses/Gherkin-LICENSE-MIT.txt",
         "licenses/Newtonsoft.Json-LICENSE-MIT.md",
         "licenses/System.ValueTuple-LICENSE-MIT.txt",
-        "specflow.tools.msbuild.generation.3.9.50.nupkg.sha512",
+        "specflow.tools.msbuild.generation.3.9.52.nupkg.sha512",
         "specflow.tools.msbuild.generation.nuspec",
         "tasks/net461/BoDi.dll",
         "tasks/net461/Gherkin.dll",
@@ -6213,39 +6227,37 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "FluentAssertions >= 6.5.0",
+      "FluentAssertions >= 6.5.1",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
       "NUnit3TestAdapter >= 4.2.1",
       "Selenium.WebDriver >= 4.1.0",
       "Selenium.WebDriver.ChromeDriver >= 98.0.4758.8000",
-      "SpecFlow.Actions.BoaConstrictor >= 0.1.177",
-      "SpecFlow.NUnit >= 3.9.50",
+      "SpecFlow.Actions.BoaConstrictor >= 0.1.266",
+      "SpecFlow.NUnit >= 3.9.52",
       "SpecFlow.Plus.LivingDocPlugin >= 3.9.57",
       "nunit >= 3.13.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "/Users/luca.babasan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\ScreenPlayPOC.csproj",
+      "projectUniqueName": "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/ScreenPlayPOC.csproj",
       "projectName": "ScreenPlayPOC",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\ScreenPlayPOC.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\luca-babasan\\Zenitech_Screenplay\\obj\\",
+      "projectPath": "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/ScreenPlayPOC.csproj",
+      "packagesPath": "/Users/luca.babasan/.nuget/packages/",
+      "outputPath": "/Users/luca.babasan/Documents/GitHub/Zenitech_Screenplay/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/luca.babasan/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6266,7 +6278,7 @@
         "dependencies": {
           "FluentAssertions": {
             "target": "Package",
-            "version": "[6.5.0, )"
+            "version": "[6.5.1, )"
           },
           "Microsoft.AspNetCore.Http.Abstractions": {
             "target": "Package",
@@ -6290,11 +6302,11 @@
           },
           "SpecFlow.Actions.BoaConstrictor": {
             "target": "Package",
-            "version": "[0.1.177, )"
+            "version": "[0.1.266, )"
           },
           "SpecFlow.NUnit": {
             "target": "Package",
-            "version": "[3.9.50, )"
+            "version": "[3.9.52, )"
           },
           "SpecFlow.Plus.LivingDocPlugin": {
             "target": "Package",
@@ -6320,7 +6332,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
       }
     }
   }
