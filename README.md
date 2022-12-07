@@ -5,9 +5,9 @@ https://github.com/q2ebanking/boa-constrictor
 
 --OS Requirements: Windows 10 and above or macOS High Sierra 10.13 and above
 
---Code Editor: Visual Studio 2019 community edition (free)
+--Code Editor: Visual Studio 2022 community edition (free)
 
---Extensions: SpecFlow for Visual Studio 2019 (or latest)
+--Extensions: SpecFlow for Visual Studio 2022 (or latest)
 
 --NuGet Packages(already installed):
 
