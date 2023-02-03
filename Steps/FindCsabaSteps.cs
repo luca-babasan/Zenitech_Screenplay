@@ -1,5 +1,5 @@
 ﻿using Boa.Constrictor.Screenplay;
-using Boa.Constrictor.WebDriver;
+using Boa.Constrictor.Selenium;
 using TechTalk.SpecFlow;
 using ScreenPlayPOC.Locators;
 using FluentAssertions; //This library will allow us to make assertions that boa constrictor does not have included

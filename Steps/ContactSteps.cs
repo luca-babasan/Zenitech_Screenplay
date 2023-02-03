@@ -1,5 +1,5 @@
 ﻿using Boa.Constrictor.Screenplay;
-using Boa.Constrictor.WebDriver;
+using Boa.Constrictor.Selenium;
 using TechTalk.SpecFlow;
 using ScreenPlayPOC.Locators;
 using System.Threading;

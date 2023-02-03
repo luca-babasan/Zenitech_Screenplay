@@ -1,5 +1,5 @@
 ﻿using Boa.Constrictor.Screenplay;
-using Boa.Constrictor.WebDriver;
+using Boa.Constrictor.Selenium;
 using TechTalk.SpecFlow;
 using ScreenPlayPOC.Locators;
 using System.Threading;
@@ -29,17 +29,20 @@ namespace ScreenPlayPOC.Steps
         {
             _actor.WaitsUntil(Appearance.Of(ZenitechPage.CareersTab), IsEqualTo.True());
             _actor.AttemptsTo(Click.On(ZenitechPage.CareersTab));
+            
+            
         }
 
         [Then]
         public void Then_I_should_be_able_to_see_the_available_jobs_for_QA_Engineers()
         {
-            //_actor.WaitsUntil(Appearance.Of(ZenitechPage.SearchLocations), IsEqualTo.True());
-            _actor.AttemptsTo(SendKeys.To(ZenitechPage.SearchField, "QA"));
-            _actor.AttemptsTo(Click.On(ZenitechPage.SearchButton));
+            _actor.WaitsUntil(Appearance.Of(ZenitechPage.JobOpeningsBtn), IsEqualTo.True());
+            _actor.AttemptsTo(Click.On(ZenitechPage.JobOpeningsBtn));
+            _actor.WaitsUntil(Appearance.Of(ZenitechPage.AllJobsBtn), IsEqualTo.True());
+            _actor.AttemptsTo(Click.On(ZenitechPage.AllJobsBtn));
+
             _actor.WaitsUntil(Appearance.Of(ZenitechPage.QAJobs), IsEqualTo.True());
             _actor.AsksFor(Text.Of(ZenitechPage.FirstJob));
-            _actor.AsksFor(Text.Of(ZenitechPage.SecondJob));
         }    
     }
 }
