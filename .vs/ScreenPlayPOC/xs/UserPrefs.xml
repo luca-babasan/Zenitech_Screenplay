@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{7E6AD046-AA26-479D-B805-92A6927A6BF0}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Locators/Zenitech.cs">
+    <Files>
+      <File FileName="Hooks/SpecFlowHooks.cs" Line="29" Column="10" />
+      <File FileName="Locators/Zenitech.cs" Line="22" Column="38" />
+      <File FileName="Locators/ValuesList.cs" Line="1" Column="1" />
+      <File FileName="Steps/ContactSteps.cs" Line="29" Column="57" />
+      <File FileName="Steps/FindAvailableJobsSteps.cs" Line="32" Column="13" />
+      <File FileName="Steps/FindCsabaSteps.cs" Line="2" Column="31" />
+      <File FileName="README.md" />
+      <File FileName="Features/FindCsaba.feature" Line="8" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ScreenPlayPOC" expanded="True">
+            <Node name="ScreenPlayPOC" expanded="True">
+              <Node name="Features" expanded="True" />
+              <Node name="Hooks" expanded="True" />
+              <Node name="Locators" expanded="True">
+                <Node name="Zenitech.cs" selected="True" />
+              </Node>
+              <Node name="Steps" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="ScreenPlayPOC" expanded="True">
+            <Node name="ScreenPlayPOC" expanded="True">
+              <Node name="ScreenPlayPOC.Features" expanded="True">
+                <Node name="ContactFeature" expanded="True" />
+                <Node name="FindAvailableJobsFeature" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ScreenPlayPOC PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,6 +1,6 @@
 ﻿using OpenQA.Selenium;
-using Boa.Constrictor.WebDriver;
-using static Boa.Constrictor.WebDriver.WebLocator;
+using Boa.Constrictor.Selenium;
+using Boa.Constrictor.Screenplay;
 
 namespace ScreenPlayPOC.Locators
 {
@@ -11,59 +11,47 @@ namespace ScreenPlayPOC.Locators
         //We use "IWebLocator" to define an elements's locator by : ClassName, CssSelector, Id, LinkText, Name, PartialLinkText, TagName, XPath
         
         //Locators for "Find available QA jobs in Cluj-Napoca" scenario
-        public static IWebLocator CareersTab => L(
+        public static IWebLocator CareersTab => WebLocator.L(
             "Join Us Tab of the website", //this is the description for the element
             By.LinkText("Careers")); //this is the driver.FindElement.By.Xpath() part.
-        public static IWebLocator SearchField => L(
-            "Select job location",
-            By.Id("search-input"));
-        public static IWebLocator SearchButton => L(
-            "Search Jobs Tab of the website",
-            By.Id("search-button"));
-        public static IWebLocator QAJobs => L(
-            "Available QA Jobs",
-            By.Id("results"));
-        public static IWebLocator FirstJob => L(
-            "First available QA job",
-            By.CssSelector("#results > div:nth-child(1)"));
-        public static IWebLocator SecondJob => L(
-            "Second available QA jobs",
-            By.CssSelector("#results > div:nth-child(2)"));
-        /*
-        public List<string> GetQAjobs()
-        {
-            IList<IWebElement> elementList = (IList<IWebElement>)QAJobs;
-            List<string> validations = new List<string>();
-            foreach (IWebElement element in elementList)
-            {
-                validations.Add(element.ToString());
-            }
-            Console.WriteLine(validations);
-            return validations;
-        }
-        */
-    //-----------------------------//
-    //Locators for "Contact" scenario
-        public static IWebLocator ContactTab => L("Contact Tab", By.LinkText("Contact"));
-        public static IWebLocator Country_field => L("Country filed of form", By.Name("Country"));
-        public static IWebLocator Phone_field => L("Phone field of form", By.Name("Phone"));
-        public static IWebLocator First_name_field => L("First name field of form", By.Name("First Name"));
-        public static IWebLocator Last_name_field => L("Last name filed of form", By.Name("Last Name"));
-        public static IWebLocator email_field => L("Email field of form", By.Name("Email"));
-        public static IWebLocator Message_field => L("Message field of form", By.Name("Description"));
-        public static IWebLocator Send_button => L("Send form button", By.Id("formsubmit"));
+        public static IWebLocator JobOpeningsBtn => WebLocator.L(
+            "Job openings button of the careens page", //this is the description for the element
+            By.LinkText("Job openings"));
+        public static IWebLocator AllJobsBtn => WebLocator.L(
+            "All jobs button of the careens page", //this is the description for the element
+            By.LinkText("All jobs"));
+        public static IWebLocator QAJobs => WebLocator.L(
+            "Available Jobs grid blocks",
+            By.Id("block-grid"));
+        public static IWebLocator FirstJob => WebLocator.L(
+            "Engineer job",
+            By.PartialLinkText("Engineer"));
+        public static IWebLocator CookiesPopup => WebLocator.L(
+            "CookiesPopup",
+            By.LinkText("Accept all"));
+
+        //-----------------------------//
+        //Locators for "Contact" scenario
+        public static IWebLocator ContactTab => WebLocator.L("Contact Tab", By.LinkText("Contact"));
+        public static IWebLocator Country_field => WebLocator.L("Country filed of form", By.Name("Country"));
+        public static IWebLocator Phone_field => WebLocator.L("Phone field of form", By.Name("Phone"));
+        public static IWebLocator First_name_field => WebLocator.L("First name field of form", By.Name("First Name"));
+        public static IWebLocator Last_name_field => WebLocator.L("Last name filed of form", By.Name("Last Name"));
+        public static IWebLocator email_field => WebLocator.L("Email field of form", By.Name("Email"));
+        public static IWebLocator Message_field => WebLocator.L("Message field of form", By.Name("Description"));
+        public static IWebLocator Send_button => WebLocator.L("Send form button", By.Id("formsubmit"));
     //-----------------------------//   
     //Locators for "Find Csaba" scenario
 
-        public static IWebLocator About_section => L(
+        public static IWebLocator About_section => WebLocator.L(
             "About section",
             By.LinkText("About")); 
-        public static IWebLocator Csaba_button => L(
+        public static IWebLocator Csaba_button => WebLocator.L(
             "People Tab",
             By.LinkText("Csaba Suket"));
         public const string People_section_link = "https://zenitech.co.uk/people/#csaba";
         
-        public static IWebLocator Csaba_article => L(
+        public static IWebLocator Csaba_article => WebLocator.L(
             "The short article on Csaba",
             By.Id("csaba"));
     //-----------------------------//
